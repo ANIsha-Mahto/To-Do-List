@@ -1,6 +1,6 @@
 const todolist=[{name:'Make a To-Do-List',
-    duedate: '2025-6-09'},{name:'Do Exercise',duedate:'2025-12-22',{name:'Read a Book,duedate:'2025-04-08'},
-    {name:'Visit Anisha Linkedln profile',duedate:'2025-01-01',{name:' Solve DSA',dueadte:'2025-06-09'];
+    duedate: '2025-6-09'},{name:'Do Exercise',duedate:'2025-12-22'},{name:'Read a Book,duedate:'2025-04-08'},
+    {name:'Visit Anisha Linkedln profile',duedate:'2025-01-01'},{name:' Solve DSA',dueadte:'2025-06-09'}];
 
 rendertodolist();
 
@@ -16,6 +16,7 @@ function rendertodolist(){
       `;
       todolistHTML+=html;
    });
+    
    document.querySelector('.js-todo-list').innerHTML=todolistHTML;
 
    document.querySelectorAll('.js-delete-todo-button')
@@ -49,6 +50,14 @@ function addtodo(){
 
    inputElement.value='';
 
+if (name !== '' && duedate !== '') {
+    todolist.push({ name, duedate });
+    inputElement.value = '';
+    dateinputelement.value = '';
+    rendertodolist();
+  }
+}
+
    rendertodolist();
    
-}
+
