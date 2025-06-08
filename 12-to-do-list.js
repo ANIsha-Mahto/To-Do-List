@@ -1,4 +1,4 @@
-const todolist=[{name:'Make a To-Do-List',
+// const todolist=[{name:'Make a To-Do-List',
 //     duedate: '2025-6-09'},{name:'Do Exercise',duedate:'2025-12-22'},{name:'Read a Book,duedate:'2025-04-08'},
 //     {name:'Visit Anisha Linkedln profile',duedate:'2025-01-01'},{name:' Solve DSA',dueadte:'2025-06-09'}];
 
