@@ -4,12 +4,6 @@ A clean and responsive To-Do List web application built using **HTML**, **CSS**,
 
 ---
 
-## 📸 Screenshot
-
-![Screenshot](screenshot.png)
-
----
-
 ## 🚀 Features
 
 - ✅ Add new tasks
@@ -21,10 +15,11 @@ A clean and responsive To-Do List web application built using **HTML**, **CSS**,
 ---
 
 ## 📁 Project Structure
+to-do-list/
 │
-├── index.html # HTML markup
-├── style.css # Styles for the UI
-├── script.js # JavaScript for functionality
+├── index.html # HTML structure
+├── 12-to-do-list.css # CSS styles
+├── 12-to-do-list.js # JavaScript logic
 └── README.md # Project documentation
 
 ## 🔧 How to Run
