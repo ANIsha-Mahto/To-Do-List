@@ -43,16 +43,16 @@ cd to-do-list
 3. **Open index.html in your browser:**
 Just double-click it or use Live Server if you're using VS Code.
 
+
 🌟 Demo
 Live Demo Link ()
+
 
 ✨ Customization Tips
       -You can save tasks using localStorage for persistence.
       -Add edit functionality for tasks.
       -Use animations with libraries like AOS or animate.css for effects.
 
-🙌 Contributing
-Pull requests are welcome! If you'd like to suggest improvements, feel free to fork the project and create a pull request.
 
 ### ✅ To Use:
 
@@ -62,5 +62,10 @@ Pull requests are welcome! If you'd like to suggest improvements, feel free to f
 
 Want help adding localStorage or edit features? Just ask!
 
+
 💬 Feedback
-Feel free to reach out via issues or contact me via [your-anisha040mahto@gmail.com].
+Feel free to reach out via issues or contact me via [anisha040mahto@gmail.com].
+
+
+🙌 Contributing
+Pull requests are welcome! If you'd like to suggest improvements, feel free to fork the project and create a pull request.
